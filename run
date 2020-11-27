@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cargo build --release && \
+	( time ./target/release/primesq | tee squares.txt )
