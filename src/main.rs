@@ -1,5 +1,4 @@
 
-use std::ops;
 use std::time::Instant;
 use ramp::int::Int;
 use primal::Primes;
